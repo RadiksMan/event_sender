@@ -62,11 +62,11 @@ html {
 
 body {
   min-height: 100%;
-  min-width: 960px;
   font-family: arial,sans-serif;
   background: #fff;
   color: #3d3d3d;
   position: relative;
+  overflow: hidden;
 }
 
 img {
@@ -138,22 +138,9 @@ p {
 
 /* /wraps styling*/
 /*Layout*/
-.main .sidebar_w {
-  width: 180px;
-  float: left;
-}
-
-.main .sidebar {
-  margin: 0;
-}
-
-.main .content_w {
-  float: left;
-  width: 820px;
-}
-
-.main .content {
-  margin: 0;
+.main {
+  position: relative;
+  z-index: 1;
 }
 
 .footer_placeholder {

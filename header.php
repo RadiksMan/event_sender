@@ -12,8 +12,9 @@
 
 	<!--<link rel="stylesheet" href="css/bootstrap.css" media="all" />
 	<link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />-->
-
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/style_basic.css" media="all" />
+
 
 	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="all" />
 
@@ -123,7 +124,38 @@
 <body>
 	<?partial('zHiddenBlock');?>
 	<header class="header">
-		<div class="mbox">
-
+		<div class="header-menu">
+			<div class="header-navigation">
+				<div class="header-logo">
+					<a href="#">
+						Event <span>Sender</span>
+					</a>
+				</div>
+				<div class="header-nav">
+					<nav>
+						<ul>
+							<li><a href="#"><span>Главная</span></a></li>
+							<li><a href="#"><span>О сервисе</span></a></li>
+							<li><a href="#"><span>Алгоритм</span></a></li>
+							<li><a href="#"><span>Тарифы</span></a></li>
+							<li><a href="#"><span>Отзывы</span></a></li>
+							<li><a href="#"><span>Примеры</span></a></li>
+							<li><a href="#"><span>Кортакты</span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="header-line">
+			<div class="header-line-wrap">
+				<div class="head-skype">
+					<span class="icon icon-skype"></span>
+					<a href="skype:eventsender?call">eventsender</a>
+				</div>
+				<div class="head-icq">
+					<span class="icon icon-icq"></span>
+					<a href="http://www.icq.com/whitepages/cmd.php?uin=3453453345&action=message">3453453345</a>
+				</div>
+			</div>
 		</div>
 	</header>

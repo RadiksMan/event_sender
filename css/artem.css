@@ -1,5 +1,7 @@
 .wrap-section-service {
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .wrap-section-service .wrap-service {
@@ -16,7 +18,7 @@
 .wrap-section-service .wrap-service .conteiner-service .header-service {
   font-size: 48rem;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   font-family: "Helvetica";
   font-weight: 900;
 }
@@ -45,11 +47,6 @@
 }
 
 .wrap-section-service .image-box-wrap {
-  position: relative;
-  z-index: 1;
-}
-
-.wrap-section-service .image-box-wrap .image-box {
   position: absolute;
   right: 0;
   top: 0;

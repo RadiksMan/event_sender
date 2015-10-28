@@ -1,15 +1,38 @@
-.wrap-service .conteiner-service .header-service {
+.wrap-section-service {
+  width: 100%;
+}
+
+.wrap-section-service .wrap-service {
+  width: 100%;
+  max-width: 1170rem;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.wrap-section-service .wrap-service .conteiner-service {
+  width: 100%;
+}
+
+.wrap-section-service .wrap-service .conteiner-service .header-service {
   font-size: 48rem;
   text-transform: uppercase;
   text-align: center;
+  font-family: "Helvetica";
+  font-weight: 900;
 }
 
-.wrap-service .conteiner-service .service-list ul li {
+.wrap-section-service .wrap-service .conteiner-service .service-list {
+  max-width: 770rem;
+}
+
+.wrap-section-service .wrap-service .conteiner-service .service-list ul li {
   font-size: 19rem;
   list-style-type: none;
+  font-weight: 300;
+  font-family: "Helvetica";
 }
 
-.wrap-service .conteiner-service .service-list ul li:before {
+.wrap-section-service .wrap-service .conteiner-service .service-list ul li:before {
   margin-right: 20rem;
   width: 16rem;
   height: 16rem;
@@ -19,4 +42,15 @@
   -webkit-border-radius: rem;
   background-color: #46c8dc;
   display: inline-block;
+}
+
+.wrap-section-service .image-box-wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.wrap-section-service .image-box-wrap .image-box {
+  position: absolute;
+  right: 0;
+  top: 0;
 }

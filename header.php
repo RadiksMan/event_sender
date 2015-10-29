@@ -129,10 +129,9 @@
 		<div class="grey-block"></div>
 		<div class="top_section_animated">
 			<div class="top_img_hands"><img src="images/top_img_hands.png" alt=""></div>
-			<div class="top_img_mac"><img src="images/" alt=""></div>
-			<div class="top_img_hands"></div>
-			<div class="top_img_tel"></div>
-			<div class="top_img_glass"></div>
+			<div class="top_img_mac"><img src="images/top_img_mac.png" alt=""></div>
+			<div class="top_img_tel"><img src="images/top_img_tel.png" alt=""></div>
+			<div class="top_img_glass"><img src="images/top_img_glass.png" height="189" width="65" alt=""></div>
 		</div>
 	</div>
 	<header class="header">

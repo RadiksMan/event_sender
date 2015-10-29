@@ -8,6 +8,15 @@ function top_slick(){
         swipe:false
     });
 }
+
+function topAnimated(){
+    setTimeout(function(){
+        $('.top_section_animated').addClass("animated");
+    },1500)
+}
 $(document).ready(function(){
     top_slick();
+});
+$(window).load(function(){
+    topAnimated();
 });

@@ -64,6 +64,7 @@
 .sendwich-wrap {
   text-align: center;
   padding: 10rem 0 10rem 0;
+  display: none;
 }
 
 .sendwich-wrap .sendwich-icon {
@@ -71,11 +72,13 @@
   width: 25rem;
   height: 25rem;
   padding-top: 11rem;
+  cursor: pointer;
 }
 
 .sendwich-wrap .sendwich-icon span {
   width: 25rem;
   height: 3rem;
+  display: block;
   background-color: #fff;
   position: relative;
   -webkit-transition: background-color 300ms ease;
@@ -88,10 +91,16 @@
   content: '';
   display: block;
   position: absolute;
+  left: 0;
   width: 25rem;
   height: 3rem;
   left: 0rem;
   background-color: #fff;
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -o-transform-origin: 0 50%;
+  transform-origin: 0 50%;
   -webkit-transition: left 300ms ease, top 300ms ease, bottom 300ms ease, -webkit-transform 300ms ease;
   -moz-transition: left 300ms ease, top 300ms ease, bottom 300ms ease, -moz-transform 300ms ease;
   -o-transition: left 300ms ease, top 300ms ease, bottom 300ms ease, -o-transform 300ms ease;
@@ -104,6 +113,32 @@
 
 .sendwich-wrap .sendwich-icon span:after {
   bottom: -11rem;
+}
+
+.sendwich-wrap .sendwich-icon.active span {
+  background-color: transparent;
+}
+
+.sendwich-wrap .sendwich-icon.active span:before, .sendwich-wrap .sendwich-icon.active span:after {
+  left: 2rem;
+}
+
+.sendwich-wrap .sendwich-icon.active span:before {
+  top: -9rem;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.sendwich-wrap .sendwich-icon.active span:after {
+  bottom: -9rem;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 /* /header menu */

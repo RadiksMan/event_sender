@@ -236,6 +236,34 @@ function animationBlock(item){
     checkForAnimate();
 }
 
+function sendwichScript(){
+
+    $(document).on('click','.sendwich-icon',function() {
+
+        if($(window).width()<1025){
+            if($(this).is('.active')){
+                $(this).removeClass('active');
+                $('.header-nav').slideUp(300);
+            }
+            else{
+                $(this).addClass('active');
+                $('.header-nav').slideDown(300);
+            }
+        }
+
+    });
+
+    $(window).resize(function(){
+
+        if($(window).width()>1024){
+            $('.header-nav').removeAttr('style');
+            $('.sendwich-icon').removeClass('active');
+        }
+
+    });
+
+}
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
@@ -246,7 +274,9 @@ $(document).ready(function() {
 
 $(window).load(function(){
 
+    animationBlock($('.animate-section'));
 
+    sendwichScript();
 
 });
 

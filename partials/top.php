@@ -7,6 +7,16 @@
                     <p>письма и заказы</p>
                     <p><b>уже сегодня!</b></p>
                 </div>
+                <div class="top_section_item">
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p><b>Lorem.</b></p>
+                </div>
+                <div class="top_section_item">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p><b>Lorem.</b></p>
+                </div>
             </div>
         </div>
         <div class="top_section_middle">

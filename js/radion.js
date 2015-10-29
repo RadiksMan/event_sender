@@ -6,14 +6,18 @@ function top_slick(){
         autoplay:true,
         verticalSwiping:false,
         swipe:false,
-        responsive:true
+        responsive:true,
+    });
+    $('.top_section_slider_wrap').on('afterChange', function (event, slick, currentSlide, nextSlide){
+        $('.slide').removeClass('active');
+        $('.slide[data-slide='+(currentSlide+1)+']').addClass('active');
     });
 }
 
 function topAnimated(){
     setTimeout(function(){
         $('.top_section_animated').addClass("animated");
-    },1500)
+    },1000)
 }
 $(document).ready(function(){
     top_slick();

@@ -3,19 +3,22 @@
         <div class="top_section_slider">
             <div class="top_section_slider_wrap">
                 <div class="top_section_item">
+                    <p><b>Более 30 000 </b></p>
+                    <p>прямых контактов! </p>
+                    <p>Обновление </p>
+                    <p>каждую неделю!</p>
+                </div>
+                <div class="top_section_item">
                     <p>Принимайте звонки,</p>
                     <p>письма и заказы</p>
                     <p><b>уже сегодня!</b></p>
+                    <p class="hidden">1</p>
                 </div>
                 <div class="top_section_item">
-                    <p>Lorem ipsum.</p>
-                    <p>Lorem ipsum dolor sit.</p>
-                    <p><b>Lorem.</b></p>
-                </div>
-                <div class="top_section_item">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit.</p>
-                    <p><b>Lorem.</b></p>
+                    <p>Расширьте географию </p>
+                    <p>ваших услуг! </p>
+                    <p><b>Рассылка </b></p>
+                    <p><b>по всей России!</b></p>
                 </div>
             </div>
         </div>

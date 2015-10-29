@@ -185,11 +185,16 @@
   font-size: 60rem;
   line-height: 72rem;
   position: relative;
-  max-height: 217px;
+  max-height: 300px;
 }
 
 .top_section .top_section_item b {
   font-weight: bold;
+}
+
+.top_section .top_section_item p.hidden {
+  opacity: 0;
+  background-color: red;
 }
 
 .top_section .top_section_middle {

@@ -9,6 +9,38 @@
   overflow: hidden;
 }
 
+.fon .more_slide {
+  position: relative;
+  z-index: 5;
+}
+
+.fon .slide {
+  opacity: 0;
+  -webkit-transition: all ease-out .3s;
+  -moz-transition: all ease-out .3s;
+  -o-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+  z-index: 2;
+}
+
+.fon .slide.active {
+  opacity: 1;
+}
+
+.fon .slider_1_image {
+  position: absolute;
+  right: 14%;
+  top: 141px;
+  z-index: 1;
+}
+
+.fon .slider_3_image {
+  position: absolute;
+  right: 14%;
+  top: 232px;
+  z-index: 1;
+}
+
 .fon .blue-block {
   position: absolute;
   top: -998.6rem;
@@ -111,7 +143,7 @@
 }
 
 .main {
-  min-height: 5000px;
+  min-height: 7000px;
 }
 
 /*heawder*/
@@ -175,15 +207,15 @@
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-  padding-top: 181px;
+  padding-top: 103px;
   padding-bottom: 206px;
 }
 
 .top_section .top_section_item {
   color: #fff;
   font-weight: 100;
-  font-size: 60rem;
-  line-height: 72rem;
+  font-size: 69rem;
+  line-height: 74rem;
   position: relative;
   max-height: 300px;
 }
@@ -208,8 +240,8 @@
 .top_section .top_section_middle .tsm_bottom {
   padding-top: 14px;
   font-size: 29rem;
-  font-weight: 300;
   letter-spacing: -1.2rem;
+  color: white;
 }
 
 .top_section .top_section_bottom {
@@ -227,17 +259,13 @@
   text-transform: uppercase;
   display: inline-block;
   text-align: center;
-  background-color: #2f8895;
-  border: 1px solid white;
+  border: 3px solid white;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   padding: 26px 87px;
   font-weight: bold;
   letter-spacing: 1.2rem;
-  -webkit-box-shadow: inset 0px 0px 1px 1px #a0a3a4;
-  -moz-box-shadow: inset 0px 0px 1px 1px #a0a3a4;
-  box-shadow: inset 0px 0px 1px 1px #a0a3a4;
   -webkit-transition: all ease .2s;
   -moz-transition: all ease .2s;
   -o-transition: all ease .2s;
@@ -246,11 +274,7 @@
 }
 
 .top_section .order_button a:hover {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  border: 1px solid #2f8895;
-  color: #2f8895;
+  color: #46c8dc;
   background-color: #fff;
 }
 

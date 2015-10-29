@@ -40,3 +40,43 @@
 }
 
 /* /animation */
+
+
+/* footer */
+
+.footer{background-color: #272A33;padding-top: 99rem;padding-bottom: 56rem;
+	.mbox{width: 100%; max-width: 1170rem;
+		.footer-wrap{
+			.logo-footer-wrap{float: left;margin-right: 9%;padding-bottom: 25px;margin-left: 11px;
+				.logo-footer{padding: 10px 0px;
+					img{max-width: 100%;}
+				}
+			}
+			.pays-wrap{float: left;padding-bottom: 20px;
+				.pays{
+					.pay{display: inline-block;margin-right: 24px;
+						a{
+							img{vertical-align: middle;display: inline-block;}
+						}
+						&:last-child{margin-right: 0;}
+					}
+				}
+			}
+			.socials-wrap{float: left;width: 23%;
+				.socials{margin: 0 auto;float: none;width: 42%;
+					div{width: 25rem;height: 25rem;float: left;margin-right: 10rem;
+						&.vk{background-image: url(../images/vk.png);background-repeat: no-repeat;}
+						&.face{background-image: url(../images/face.png);background-repeat: no-repeat;}
+						&.inst{background-image: url(../images/inst.png);background-repeat: no-repeat;}
+						a{width: 100%;height: 100%;display: block;}
+					}
+				}
+			}
+			.copy-right{float: right;
+				p{font-family: 'Helvetica'; font-weight: 300; font-size: 14rem;color: rgba(255,255,255,0.43);}
+			}
+		}
+	}
+}
+
+/* /footer */

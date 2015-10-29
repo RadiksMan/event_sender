@@ -42,6 +42,16 @@
 }
 @media screen and (max-width: 992px){
 
+    /* service */
+
+    .wrap-section-service{padding-top: 375rem;
+        .image-box-wrap{left: auto;right: 0;top: 0;transform:translate(20%, 0);
+            img{max-height: 350rem;}
+        }
+    }
+
+    /* /service */
+
 }
 @media screen and (max-width: 767px){
 

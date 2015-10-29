@@ -124,8 +124,16 @@
 <body>
 	<?partial('zHiddenBlock');?>
 	<div class="fon">
-		<div class="blue-block"></div>
+		<div class="blue-block">
+		</div>
 		<div class="grey-block"></div>
+		<div class="top_section_animated">
+			<div class="top_img_hands"><img src="images/top_img_hands.png" height="629" width="605" alt=""></div>
+			<div class="top_img_mac"></div>
+			<div class="top_img_hands"></div>
+			<div class="top_img_tel"></div>
+			<div class="top_img_glass"></div>
+		</div>
 	</div>
 	<header class="header">
 		<div class="header-menu">

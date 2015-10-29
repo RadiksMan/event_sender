@@ -1,26 +1,30 @@
 /*blue block*/
 .fon{position: absolute;top: 0;left:0;right: 0;bottom: 0;z-index: 1;overflow: hidden;}
-.blue-block{position: absolute;top: -998.6rem;right: 54.6%;background-color: #46c8dc;height: 3000px;width: 80%;z-index: -1;transform: rotate(42.1deg);}
+.blue-block{position: absolute;top: -998.6rem;right: 54.6%;background-color: #46c8dc;height: 3000px;width: 80%;z-index: 1;transform: rotate(42.1deg);
+    .top_section_animated{position: relative;
+        .top_img_hands{position: absolute;top: 0;right: 0;}
+    }
+}
 .grey-block{transform: rotate(-47.8deg);top: 10.3%;left: 85%;width: 1021px;position: absolute;background-color: #edf3f5;height: 5000px;z-index: 1}
 .main{min-height: 5000px;}
 /*heawder*/
 .header{color: white;position: relative;z-index: 3;
-    .header-menu{position: fixed;left: 0;top: 0;font-size: 15rem;z-index: 4;text-align: center;}
-    .header-navigation{background-color: #272a33;}
-    .header-nav{width: 203rem;
-        ul{list-style-type: none;}
-        li{transition:all ease .2s;
-            &:hover{background-color: #2e3139;
-                a{color: #58cee0;}
-            }
-        }
-        a{color: #fff;text-decoration: none;padding: 10px 0px;display: block;padding: 46rem 0px;transition:all ease .2s;font-weight: 300;}
-    }
-    .header-logo{
-        a{padding: 39rem 0px;display: block;font-size: 24rem;text-decoration: none;color: white;font-weight: 300;
-            span{font-weight: normal;}
-        }
-    }
+    // .header-menu{position: fixed;left: 0;top: 0;font-size: 15rem;z-index: 4;text-align: center;}
+    // .header-navigation{background-color: #272a33;}
+    // .header-nav{width: 203rem;
+    //     ul{list-style-type: none;}
+    //     li{transition:all ease .2s;
+    //         &:hover{background-color: #2e3139;
+    //             a{color: #58cee0;}
+    //         }
+    //     }
+    //     a{color: #fff;text-decoration: none;padding: 10px 0px;display: block;padding: 46rem 0px;transition:all ease .2s;font-weight: 300;}
+    // }
+    // .header-logo{
+    //     a{padding: 39rem 0px;display: block;font-size: 24rem;text-decoration: none;color: white;font-weight: 300;
+    //         span{font-weight: normal;}
+    //     }
+    // }
     .header-line{padding-right: 21.6%;position: relative;z-index: 1;padding-top: 31.2rem;
         .header-line-wrap{text-align: right;font-size: 20rem;color: #000;}
         .head-skype,.head-icq{display: inline-block;vertical-align: top;}

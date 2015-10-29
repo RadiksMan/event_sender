@@ -144,6 +144,8 @@
 		</div>
 		<div class="blue-block"></div>
 		<div class="grey-block"></div>
+		<div class="green_block"></div>
+		<div class="grey-block-next"></div>
 		<div class="top_section_animated">
 			<div class="slider_2 slide active" data-slide="1">
 				<div class="top_img_hands"><img src="images/top_img_hands.png" alt=""></div>

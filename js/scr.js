@@ -70,14 +70,22 @@ function oneHeightItems(){
 		var height=0;
 		block.removeAttr('style');
 		block.each(function(){
-			if($(this).height()>height){
-				height=$(this).height();
+			if($(this).outerHeight()>height){
+				height=$(this).outerHeight();
 			}
 		});
 		block.css('height', height);
 	}
 
-	oneHeight($('.oneHeight'));
+	oneHeight($('.tarifs-description'));
+    oneHeight($('.tarifs-title'));
+
+    $(window).resize(function(){
+
+        oneHeight($('.tarifs-description'));
+        oneHeight($('.tarifs-title'));
+
+    });
 }
 
 function validate(form, options){
@@ -269,7 +277,6 @@ $(document).ready(function() {
 	modernize();
 	$('.footer_placeholder').height($('.footer').outerHeight());
 
-	oneHeightItems();
 });
 
 $(window).load(function(){
@@ -277,6 +284,8 @@ $(window).load(function(){
     animationBlock($('.animate-section'));
 
     sendwichScript();
+
+    oneHeightItems();
 
 });
 

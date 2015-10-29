@@ -123,6 +123,10 @@
 </head>
 <body>
 	<?partial('zHiddenBlock');?>
+	<div class="fon">
+		<div class="blue-block"></div>
+		<div class="grey-block"></div>
+	</div>
 	<header class="header">
 		<div class="header-menu">
 			<div class="header-navigation">

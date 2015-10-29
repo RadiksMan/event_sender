@@ -1,3 +1,4 @@
+/* header menu */
 .header .header-menu {
   position: fixed;
   left: 0;
@@ -59,3 +60,50 @@
 .header .header-logo a span {
   font-weight: normal;
 }
+
+.sendwich-wrap {
+  text-align: center;
+  padding: 10rem 0 10rem 0;
+}
+
+.sendwich-wrap .sendwich-icon {
+  display: inline-block;
+  width: 25rem;
+  height: 25rem;
+  padding-top: 11rem;
+}
+
+.sendwich-wrap .sendwich-icon span {
+  width: 25rem;
+  height: 3rem;
+  background-color: #fff;
+  position: relative;
+  -webkit-transition: background-color 300ms ease;
+  -moz-transition: background-color 300ms ease;
+  -o-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+}
+
+.sendwich-wrap .sendwich-icon span:before, .sendwich-wrap .sendwich-icon span:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 25rem;
+  height: 3rem;
+  left: 0rem;
+  background-color: #fff;
+  -webkit-transition: left 300ms ease, top 300ms ease, bottom 300ms ease, -webkit-transform 300ms ease;
+  -moz-transition: left 300ms ease, top 300ms ease, bottom 300ms ease, -moz-transform 300ms ease;
+  -o-transition: left 300ms ease, top 300ms ease, bottom 300ms ease, -o-transform 300ms ease;
+  transition: left 300ms ease, top 300ms ease, bottom 300ms ease, transform 300ms ease;
+}
+
+.sendwich-wrap .sendwich-icon span:before {
+  top: -11rem;
+}
+
+.sendwich-wrap .sendwich-icon span:after {
+  bottom: -11rem;
+}
+
+/* /header menu */

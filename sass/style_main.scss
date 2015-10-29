@@ -1,3 +1,5 @@
+/* header menu */
+
 .header{
     .header-menu{position: fixed;left: 0;top: 0;font-size: 15rem;z-index: 4;text-align: center;}
     .header-navigation{background-color: #272a33;}
@@ -16,3 +18,15 @@
         }
     }
 }
+
+.sendwich-wrap{text-align: center;padding: 10rem 0 10rem 0;
+    .sendwich-icon{display: inline-block;width: 25rem;height: 25rem;padding-top: 11rem;
+        span{width: 25rem;height: 3rem;background-color: #fff;position: relative;transition:background-color 300ms ease;
+            &:before, &:after{content:'';display: block;position: absolute;width: 25rem;height: 3rem;left:0rem;background-color:#fff;transition:left 300ms ease, top 300ms ease, bottom 300ms ease, transform 300ms ease;}
+            &:before{top:-11rem;}
+            &:after{bottom:-11rem;}
+        }
+    }
+}
+
+/* /header menu */

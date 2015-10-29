@@ -1,0 +1,86 @@
+.algoritm {
+  position: relative;
+}
+
+.algoritm .mbox {
+  width: 1170rem !important;
+}
+
+.algoritm .mbox .algoritm-wrap .algoritm-title h2 {
+  text-transform: uppercase;
+  font-family: 'Helvetica';
+  font-weight: 900;
+  font-size: 48rem;
+  color: #535353;
+  text-align: center;
+}
+
+.algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list {
+  float: right;
+  width: 70%;
+}
+
+.algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list span {
+  width: 70rem;
+  height: 70rem;
+  background-color: #46C8DC;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 24rem;
+  font-weight: 900;
+  font-family: 'Helvetica';
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+  padding-top: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-right: 30px;
+}
+
+.algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list p {
+  vertical-align: middle;
+  display: inline-block;
+  width: 71%;
+}
+
+.algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li00, .algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li01, .algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li02, .algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li03, .algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li04, .algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li05, .algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li06 {
+  font-weight: 300;
+  font-family: 'Helvetica';
+  color: #959595;
+  font-size: 19rem;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li00 {
+  margin-left: 0%;
+}
+
+.algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li01 {
+  margin-left: 7.5%;
+}
+
+.algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li02 {
+  margin-left: 15%;
+}
+
+.algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li03 {
+  margin-left: 22.5%;
+}
+
+.algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li04 {
+  margin-left: 30%;
+}
+
+.algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li05 {
+  margin-left: 37.5%;
+}
+
+.algoritm .mbox .algoritm-wrap .algoritm-body .algoritm-list .li06 {
+  margin-left: 45%;
+}

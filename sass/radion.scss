@@ -11,8 +11,6 @@
     .grey-block{transform: rotate(-47.8deg);top: 10.3%;left: 85%;width: 1021px;position: absolute;background-color: #edf3f5;height: 5000px;z-index: 1}
 
     .top_section_animated{position: relative;
-
-
         .top_img_hands{position: absolute;top: 227px;left: 0;transition:left ease .5s,opacity ease .7s;opacity: 0;}
         .top_img_mac{position: absolute;top: 227px;right: -10%;z-index: -1;transition:right ease .5s,opacity ease .7s;opacity: 0;}
         .top_img_tel{position: absolute;top: -10%;right: 700px;z-index: 1;transition:right ease .5s,top ease .5s,opacity ease .7s;opacity: 0;}
@@ -26,7 +24,7 @@
     }
 }
 
-.main{min-height: 5000px;}
+.main{min-height: 7000px;}
 /*heawder*/
 .header{color: white;position: relative;z-index: 3;
     // .header-menu{position: fixed;left: 0;top: 0;font-size: 15rem;z-index: 4;text-align: center;}

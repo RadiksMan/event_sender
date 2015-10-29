@@ -44,7 +44,7 @@
 
     /* service */
 
-    .wrap-section-service{padding-top: 375rem;
+    .wrap-section-service{padding-top: 340rem;background-color: #edf3f5;
         .image-box-wrap{left: auto;right: 0;top: 0;transform:translate(20%, 0);
             img{max-height: 350rem;}
         }
@@ -60,6 +60,14 @@
 
 }
 @media screen and (max-width: 479px){
+
+    /* service */
+
+    .wrap-section-service{
+        .image-box-wrap{transform:translate(45%, 0);}
+    }
+
+    /* /service */
 
 }
 @media screen and (max-width: 320px){

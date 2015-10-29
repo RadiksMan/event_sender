@@ -1,22 +1,21 @@
 
-.algoritm{position: relative;
-	.mbox{width: 1170rem!important;
-		.algoritm-wrap{
-			.algoritm-title{
+.algoritm{
+	.mbox{max-width: 1170rem; width: 100%;
+		.algoritm-wrap{padding-bottom: 254px;
+			.algoritm-title{margin-bottom: 90px;
 				h2{text-transform: uppercase; font-family: 'Helvetica'; font-weight: 900; font-size: 48rem;color: #535353;text-align: center;}
 			}
-			.algoritm-body{
-				.algoritm-list{float: right;width: 70%;
-					span{width: 70rem; height: 70rem; background-color: #46C8DC; border-radius: 50%; font-size: 24rem;font-weight: 900; font-family: 'Helvetica'; color: #fff;display: inline-block;text-align: center;position: relative;vertical-align: middle;padding-top: 20px;box-sizing: border-box;margin-right: 30px;}
-					p{vertical-align: middle;display: inline-block; width: 71%;}
-					%li0{font-weight: 300; font-family: 'Helvetica'; color: #959595; font-size: 19rem;list-style-type: none;display: inline-block;}
-					@for $i from 0 through 6 {
-					  .li0#{$i} {
-					    @extend %li0;
-					    $margin: 1%*($i*5);  
-					    margin-left:$margin;
-					  }
-					}
+			.body-img-wrap{position: absolute;top: 33%;left: 9%;}
+			.algoritm-list{float: right;width: 76%;
+				span{width: 70rem; height: 70rem; background-color: #46C8DC; border-radius: 50%; font-size: 24rem;font-weight: 900; font-family: 'Helvetica'; color: #fff;display: inline-block;text-align: center;position: relative;vertical-align: middle;padding-top: 20px;box-sizing: border-box;margin-right: 40px;}
+				p{vertical-align: middle;display: inline-block; width: 71%;}
+				%li0{font-weight: 300; font-family: 'Helvetica'; color: #959595; font-size: 19rem;list-style-type: none;display: inline-block;padding-left: 10px;margin-bottom: 2px;}
+				@for $i from 0 through 6 {
+				  .li0#{$i} {
+				    @extend %li0;
+				    $margin: 1.77%*($i*5);  
+				    margin-left:$margin;
+				  }
 				}
 			}
 		}

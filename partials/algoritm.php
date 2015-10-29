@@ -1,6 +1,6 @@
 <div class="algoritm">
 	<div class="mbox">
-		<div class='algoritm-wrap'>
+		<div class='algoritm-wrap cfix'>
 			<div class="algoritm-title">
 				<h2>Алгоритм</h2>
 			</div>

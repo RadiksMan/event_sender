@@ -55,7 +55,6 @@
 
 /* /helping adds*/
 /* base styles*/
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -144,7 +143,6 @@ p {
 
 /* /wraps styling*/
 /*Layout*/
-
 .main {
   position: relative;
   z-index: 2;

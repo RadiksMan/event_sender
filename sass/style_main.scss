@@ -41,11 +41,14 @@
 /* tarifs */
 
 .tarifs{padding-top: 300rem;}
-.tarifs-title-main{font-weight: 900;font-size: 48rem;position: relative;color:#4a5557;padding-bottom: 20rem;margin-bottom: 50rem;text-transform: uppercase;margin-left: 6rem;
+.tarifs-title-main{font-weight: 900;font-size: 48rem;position: relative;color:#4a5557;padding-bottom: 20rem;margin-bottom: 50rem;text-transform: uppercase;margin-left: 6rem;opacity: 0;transform:translate(0,-20%);transition:opacity 500ms ease, transform 300ms ease;
+    &.animated{opacity: 1;transform:translate(0,0);}
     &:after{content: '';display: block;position: absolute;width: 66rem;height: 7rem;background-color: #46c8dc;bottom: 0;left: 0;}
 }
 .tarifs-wrap-main{margin:0 -10rem;text-align: center;}
-.tarifs-item-wrap{display: inline-block;vertical-align: top;width: calc(33.33% - 3rem);padding: 0 1%;}
+.tarifs-item-wrap{display: inline-block;vertical-align: top;width: calc(33.33% - 3rem);padding: 0 1%;opacity: 0;transform:translate(0, -20%);transition:opacity 500ms ease, transform 300ms ease;
+    &.animated{opacity: 1;transform:translate(0,0);}
+}
 .tarifs-item{box-shadow:0 2rem 5rem 0 rgba(0,0,0, .21);background-color: #f2f7f8;padding-bottom: 35rem;}
 .tarifs-title{background-color: #40434b;font-size: 30rem;color:#f2fdff;padding: 20rem 0 20rem 0;}
 .tarifs-price{float: left;width: 50%;

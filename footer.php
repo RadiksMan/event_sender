@@ -1,7 +1,7 @@
 	<div class="footer_placeholder"></div>
 	<footer class="footer">
 		<div class="mbox">
-			<div class="footer-wrap">
+			<div class="footer-wrap cfix">
 				<div class="logo-footer-wrap">
 					<div class="logo-footer">
 						<img src="images/logo-footer.png" alt=""/>
@@ -47,7 +47,7 @@
 					</div>
 				</div>
 				<div class="socials-wrap">
-					<div class="socials">
+					<div class="socials cfix">
 						<div class="vk">
 							<a href="#"></a>
 						</div>

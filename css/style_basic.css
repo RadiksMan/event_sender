@@ -125,10 +125,12 @@ p {
 /* /base typo*/
 /* wraps styling*/
 .mbox {
-  width: 1024px;
+  max-width: 1190rem;
+  width: 100%;
   margin: 0 auto;
   position: relative;
   z-index: 1;
+  padding: 0 10rem;
 }
 
 .mbox:after {

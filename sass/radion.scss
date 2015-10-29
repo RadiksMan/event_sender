@@ -50,8 +50,9 @@
 .top_section{
     .top_section_wrap{font-size: 30rem;color: #3e3e3f;width: 100%;max-width: 1170px;margin: 0 auto;padding-top: 181px;padding-bottom: 206px;}
 
-    .top_section_item{color: #fff;font-weight: 100;font-size: 60rem;line-height: 72rem;position: relative;max-height: 217px;
+    .top_section_item{color: #fff;font-weight: 100;font-size: 60rem;line-height: 72rem;position: relative;max-height: 300px;
         b{font-weight: bold;}
+        p.hidden{opacity: 0;background-color: red;}
     }
     .top_section_middle{padding-top: 74px;
         .tsm_top{font-weight: bold;}

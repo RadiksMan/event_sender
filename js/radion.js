@@ -5,7 +5,8 @@ function top_slick(){
         vertical:true,
         autoplay:true,
         verticalSwiping:false,
-        swipe:false
+        swipe:false,
+        responsive:true
     });
 }
 

@@ -11,10 +11,71 @@
 
 }
 @media screen and (max-width: 1024px){
+    /*top*/
+    .top_section{
+        .top_section_wrap{font-size: 24rem;padding-top: 67px;padding-bottom: 100px;}
 
+        .top_section_item{font-size: 45rem;line-height: 50rem;padding-left: 15%;
+        }
+        .top_section_middle{padding-top: 60px;padding-left: 5%;
+            .tsm_bottom{padding-top: 14px;font-size: 29rem;letter-spacing: -1.2rem;}
+        }
+        .top_section_bottom{padding-top: 44px;}
+        .order_button{padding-left: 5%;
+            a{text-decoration: none;font-size: 14rem;letter-spacing: 1.2rem}
+        }
+        .top_section_slider_wrap{outline: none;position: relative;
+            &:after{content: '';height: 6px;width: 60px;background-color: #ecf0f1;position: absolute;left: 15%;bottom: -36px;}
+            .slick-slide{outline: none;}
+        }
+    }
+    /*blue block*/
+    .fon{
+        .top_section_animated{
+            img{max-width: 60%;}
+            .top_img_hands{top: 227px;left: 0;}
+            .top_img_mac{top: 268px;right: -10%;}
+            .top_img_tel{top: -10%;right: 700px;}
+            .top_img_glass{top: 473px;left: 59.8%;}
+            &.animated{
+                .top_img_hands{left: 45.6%;}
+                .top_img_mac{right: -15.4%;}
+                .top_img_tel{top: 390px;right: 19.8%;}
+                .top_img_glass{display: none;}
+            }
+        }
+    }
 }
 @media screen and (max-width: 992px){
-
+    /*header*/
+    .header .header-line{padding-right: 2.6%;}
+    /*top*/
+    .top_section{
+        .top_section_wrap{font-size: 24rem;padding-top: 67px;padding-bottom: 100px;}
+        .top_section_item{font-size: 45rem;line-height: 50rem;padding-left: 10%;
+        }
+        .top_section_middle{padding-top: 60px;padding-left: 5%;
+            .tsm_bottom{padding-top: 14px;font-size: 29rem;letter-spacing: -1.2rem;max-width: 60%;}
+        }
+        .top_section_bottom{padding-top: 44px;}
+        .order_button{padding-left: 5%;}
+        .top_section_slider_wrap{&:after{left: 10%;}}
+    }
+    .fon{
+        .top_section_animated{
+            img{max-width: 60%;}
+            .top_img_hands{top: 227px;left: 0;}
+            .top_img_mac{top: 268px;right: -10%;}
+            .top_img_tel{top: -10%;right: 700px;}
+            .top_img_glass{top: 473px;left: 59.8%;}
+            &.animated{
+                .top_img_hands{left: 54.6%;top: 317px;}
+                .top_img_mac{right: -27.4%;}
+                .top_img_tel{display: none;}
+                .top_img_glass{display: none;}
+            }
+        }
+    }
 }
 @media screen and (max-width: 767px){
 

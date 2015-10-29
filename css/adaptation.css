@@ -1,4 +1,10 @@
 @media screen and (max-width: 1024px) {
+  /* fon */
+  .fon .grey-block {
+    top: 3.3%;
+    left: 115%;
+  }
+  /* /fon */
   /* header nav */
   .sendwich-wrap {
     display: block;
@@ -21,4 +27,21 @@
     padding: 10rem 0 20rem 0;
   }
   /* /header nav */
+}
+
+@media screen and (max-width: 992px) {
+  /* fon */
+  .fon .grey-block {
+    top: 3.3%;
+    left: 150%;
+  }
+  /* /fon */
+}
+
+@media screen and (max-width: 767px) {
+  /* fon */
+  .fon .blue-block, .fon .grey-block {
+    display: none;
+  }
+  /* /fon */
 }

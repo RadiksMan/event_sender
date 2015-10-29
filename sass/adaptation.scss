@@ -14,6 +14,14 @@
 }
 @media screen and (max-width: 1024px){
 
+    /* fon */
+
+    .fon{
+        .grey-block{top:3.3%;left:115%;}
+    }
+
+    /* /fon */
+
     /* header nav */
 
     .sendwich-wrap{display: block;}
@@ -34,8 +42,24 @@
 }
 @media screen and (max-width: 992px){
 
+    /* fon */
+
+    .fon{
+        .grey-block{top:3.3%;left:150%;}
+    }
+
+    /* /fon */
+
 }
 @media screen and (max-width: 767px){
+
+    /* fon */
+
+    .fon{
+        .blue-block, .grey-block{display: none;}
+    }
+
+    /* /fon */
 
 }
 @media screen and (max-width: 666px){

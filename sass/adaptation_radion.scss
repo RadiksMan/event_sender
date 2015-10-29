@@ -5,7 +5,10 @@
 
 }
 @media screen and (max-width: 1366px){
-
+    .fon .top_section_animated.animated .top_img_hands {left: 38.6%;}
+    .fon .top_section_animated.animated .top_img_mac {right: 1.6%;top: 238px;}
+    .fon .top_section_animated.animated .top_img_tel {top: 225px;right: 21.8%;}
+    .top_section .top_section_wrap{padding-top: 130px;}
 }
 @media screen and (max-width: 1280px){
 
@@ -33,12 +36,12 @@
     .fon{
         .top_section_animated{
             img{max-width: 60%;}
-            .top_img_hands{top: 227px;left: 0;}
+            .top_img_hands{top: 255px;left: 0;}
             .top_img_mac{top: 268px;right: -10%;}
             .top_img_tel{top: -10%;right: 700px;}
             .top_img_glass{top: 473px;left: 59.8%;}
             &.animated{
-                .top_img_hands{left: 45.6%;}
+                .top_img_hands{left: 56.6%;}
                 .top_img_mac{right: -15.4%;}
                 .top_img_tel{top: 390px;right: 19.8%;}
                 .top_img_glass{display: none;}

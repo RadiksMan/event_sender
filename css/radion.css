@@ -47,8 +47,6 @@
   position: absolute;
   top: 227px;
   left: 0;
-  height: 629px;
-  width: 605px;
   -webkit-transition: left ease .5s,opacity ease .7s;
   -moz-transition: left ease .5s,opacity ease .7s;
   -o-transition: left ease .5s,opacity ease .7s;
@@ -60,8 +58,6 @@
   position: absolute;
   top: 227px;
   right: -10%;
-  height: 629px;
-  width: 427px;
   z-index: -1;
   -webkit-transition: right ease .5s,opacity ease .7s;
   -moz-transition: right ease .5s,opacity ease .7s;
@@ -74,8 +70,6 @@
   position: absolute;
   top: -10%;
   right: 700px;
-  height: 96px;
-  width: 148px;
   z-index: 1;
   -webkit-transition: right ease .5s,top ease .5s,opacity ease .7s;
   -moz-transition: right ease .5s,top ease .5s,opacity ease .7s;
@@ -87,9 +81,7 @@
 .fon .top_section_animated .top_img_glass {
   position: absolute;
   top: 473px;
-  right: 706px;
-  height: 189px;
-  width: 65px;
+  left: 59.8%;
   z-index: 1;
   opacity: 0;
   -webkit-transition: opacity ease .8s;
@@ -99,18 +91,18 @@
 }
 
 .fon .top_section_animated.animated .top_img_hands {
-  left: 866px;
+  left: 45.6%;
   opacity: 1;
 }
 
 .fon .top_section_animated.animated .top_img_mac {
-  right: 224px;
+  right: 11.6%;
   opacity: 1;
 }
 
 .fon .top_section_animated.animated .top_img_tel {
   top: 233px;
-  right: 566px;
+  right: 29.8%;
   opacity: 1;
 }
 
@@ -184,6 +176,7 @@
   max-width: 1170px;
   margin: 0 auto;
   padding-top: 181px;
+  padding-bottom: 206px;
 }
 
 .top_section .top_section_item {

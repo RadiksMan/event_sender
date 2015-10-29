@@ -1,3 +1,20 @@
+@media screen and (max-width: 1366px) {
+  .fon .top_section_animated.animated .top_img_hands {
+    left: 38.6%;
+  }
+  .fon .top_section_animated.animated .top_img_mac {
+    right: 1.6%;
+    top: 238px;
+  }
+  .fon .top_section_animated.animated .top_img_tel {
+    top: 225px;
+    right: 21.8%;
+  }
+  .top_section .top_section_wrap {
+    padding-top: 130px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   /*top*/
   .top_section .top_section_wrap {
@@ -51,7 +68,7 @@
     max-width: 60%;
   }
   .fon .top_section_animated .top_img_hands {
-    top: 227px;
+    top: 255px;
     left: 0;
   }
   .fon .top_section_animated .top_img_mac {
@@ -67,7 +84,7 @@
     left: 59.8%;
   }
   .fon .top_section_animated.animated .top_img_hands {
-    left: 45.6%;
+    left: 56.6%;
   }
   .fon .top_section_animated.animated .top_img_mac {
     right: -15.4%;

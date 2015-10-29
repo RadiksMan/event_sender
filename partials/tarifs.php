@@ -1,11 +1,13 @@
 <div class="tarifs">
     <div class="tarifs-wrap mbox">
-        <div class="tarifs-title-main">
-            тарифы
+        <div class="tarifs-title-main-wrap animate-section">
+            <div class="tarifs-title-main animate-it">
+                тарифы
+            </div>
         </div>
-        <div class="tarifs-wrap-main">
+        <div class="tarifs-wrap-main animate-section">
 
-            <div class="tarifs-item-wrap">
+            <div class="tarifs-item-wrap animate-delay">
                 <div class="tarifs-item">
                     <div class="tarifs-title">
                         Инвесторы
@@ -41,7 +43,7 @@
                 </div>
             </div>
 
-            <div class="tarifs-item-wrap">
+            <div class="tarifs-item-wrap animate-delay">
                 <div class="tarifs-item">
                     <div class="tarifs-title">
                         Площадки
@@ -77,7 +79,7 @@
                 </div>
             </div>
 
-            <div class="tarifs-item-wrap">
+            <div class="tarifs-item-wrap animate-delay">
                 <div class="tarifs-item">
                     <div class="tarifs-title">
                         Инвесторы+Площадки

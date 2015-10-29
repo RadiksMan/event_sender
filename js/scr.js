@@ -240,7 +240,7 @@ function sendwichScript(){
 
     $(document).on('click','.sendwich-icon',function() {
 
-        if($(window).width()<1025){
+        if($(window).width()<1367){
             if($(this).is('.active')){
                 $(this).removeClass('active');
                 $('.header-nav').stop().slideUp(300);
@@ -255,7 +255,7 @@ function sendwichScript(){
 
     $(window).resize(function(){
 
-        if($(window).width()>1024){
+        if($(window).width()>1366){
             $('.header-nav').removeAttr('style');
             $('.sendwich-icon').removeClass('active');
         }

@@ -1,8 +1,15 @@
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 2440px) {
   /* fon */
   .fon .grey-block {
-    top: 3.3%;
-    left: 115%;
+    left: 77%;
+  }
+  /* /fon */
+}
+
+@media screen and (max-width: 1366px) {
+  /* fon */
+  .fon .grey-block {
+    left: 99%;
   }
   /* /fon */
   /* header nav */
@@ -27,6 +34,15 @@
     padding: 10rem 0 20rem 0;
   }
   /* /header nav */
+}
+
+@media screen and (max-width: 1024px) {
+  /* fon */
+  .fon .grey-block {
+    top: 3.3%;
+    left: 115%;
+  }
+  /* /fon */
 }
 
 @media screen and (max-width: 992px) {

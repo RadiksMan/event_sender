@@ -124,21 +124,31 @@
 <body>
 	<?partial('zHiddenBlock');?>
 	<div class="fon">
-		<div class="blue-block">
+		<div class="more_slide">
+
+			<div class="slider_1 slide " data-slide="2">
+				<div class="slider_1_image">
+					<img src="images/top_slide_1.png" alt="">
+				</div>
+			</div>
+			<div class="slider_3 slide" data-slide="3">
+				<div class="slider_3_image">
+					<img src="images/top_slide_3.png" alt="">
+				</div>
+			</div>
+			<div class="top_section_animated">
+				<div class="slider_2 slide active" data-slide="1">
+					<div class="top_img_tel"><img src="images/top_img_tel.png" alt=""></div>
+				</div>
+			</div>
 		</div>
+		<div class="blue-block"></div>
 		<div class="grey-block"></div>
 		<div class="top_section_animated">
-			<div class="slider_1">
-
-			</div>
-			<div class="slider_2">
+			<div class="slider_2 slide active" data-slide="1">
 				<div class="top_img_hands"><img src="images/top_img_hands.png" alt=""></div>
 				<div class="top_img_mac"><img src="images/top_img_mac.png" alt=""></div>
-				<div class="top_img_tel"><img src="images/top_img_tel.png" alt=""></div>
 				<div class="top_img_glass"><img src="images/top_img_glass.png" alt=""></div>
-			</div>
-			<div class="slider_3">
-
 			</div>
 		</div>
 	</div>

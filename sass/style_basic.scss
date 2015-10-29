@@ -11,7 +11,7 @@
 
 /* base styles*/
 html{height:100%;font-size:1px;}
-body{min-height:100%;font-family: 'Helvetica';background:#fff;color:#3d3d3d;position:relative;overflow: hidden;}
+body{min-height:100%;font-family: 'Helvetica';background:#fff;color:#3d3d3d;position:relative;}
 img{vertical-align:bottom;border:0;max-width:100%;}
 /* /base styles */
 
@@ -47,7 +47,7 @@ p{margin:0;}
 
 
 /*Layout*/
-.main{position: relative;z-index: 1;}
+.main{position: relative;z-index: 2;}
 
 
 .footer_placeholder{height: 200px;}

@@ -10,7 +10,19 @@
             </div>
         </div>
         <div class="top_section_middle">
-
+            <div class="tsm_top">
+                <p>Email рассылки для event-индустрии!</p>
+            </div>
+            <div class="tsm_bottom">
+                <p>Артистам! Подрядчикам! Площадкам! Ивенторам!</p>
+            </div>
+        </div>
+        <div class="top_section_bottom">
+            <div class="order_button">
+                <a href="#">
+                    <span>Заказать</span>
+                </a>
+            </div>
         </div>
 
     </div>

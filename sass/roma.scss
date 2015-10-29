@@ -1,4 +1,6 @@
 
+/* algoritm */
+
 .algoritm{
 	.mbox{max-width: 1170rem; width: 100%;
 		.algoritm-wrap{padding-bottom: 254px;
@@ -21,3 +23,20 @@
 		}
 	}
 }
+
+/* /algoritm */
+
+/* animation */
+
+.algoritm-list{
+	li{
+		span{transform:translateX(-1000%); transition: transform 300ms ease, opacity 500ms ease;opacity: 0;}
+		p{transform:translateX(1000%); transition: transform 300ms ease, opacity 500ms ease;opacity: 0;}
+		&.animated{
+			span{transform:translateX(0%); opacity: 1;}
+			p{transform:translateX(0%); opacity: 1;}
+		}
+	}
+}
+
+/* /animation */

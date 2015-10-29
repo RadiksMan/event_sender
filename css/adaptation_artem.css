@@ -35,7 +35,8 @@
 @media screen and (max-width: 992px) {
   /* service */
   .wrap-section-service {
-    padding-top: 375rem;
+    padding-top: 340rem;
+    background-color: #edf3f5;
   }
   .wrap-section-service .image-box-wrap {
     left: auto;
@@ -49,6 +50,18 @@
   }
   .wrap-section-service .image-box-wrap img {
     max-height: 350rem;
+  }
+  /* /service */
+}
+
+@media screen and (max-width: 479px) {
+  /* service */
+  .wrap-section-service .image-box-wrap {
+    -webkit-transform: translate(45%, 0);
+    -moz-transform: translate(45%, 0);
+    -ms-transform: translate(45%, 0);
+    -o-transform: translate(45%, 0);
+    transform: translate(45%, 0);
   }
   /* /service */
 }

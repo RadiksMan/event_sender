@@ -26,6 +26,28 @@
   padding-top: 10rem;
 }
 
+.wrap-section-service .wrap-service .conteiner-service .header-service p {
+  color: transparent;
+  -webkit-transform: translate(0, -10%);
+  -moz-transform: translate(0, -10%);
+  -ms-transform: translate(0, -10%);
+  -o-transform: translate(0, -10%);
+  transform: translate(0, -10%);
+  -webkit-transition: color 500ms ease, -webkit-transform 300ms ease;
+  -moz-transition: color 500ms ease, -moz-transform 300ms ease;
+  -o-transition: color 500ms ease, -o-transform 300ms ease;
+  transition: color 500ms ease, transform 300ms ease;
+}
+
+.wrap-section-service .wrap-service .conteiner-service .header-service p.animated {
+  color: #3d3d3d;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
 .wrap-section-service .wrap-service .conteiner-service .service-list {
   max-width: 770rem;
 }
@@ -39,6 +61,16 @@
   padding-left: 45rem;
   color: #5c696b;
   margin-bottom: 30px;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease, -webkit-transform 300ms ease;
+  -moz-transition: opacity 500ms ease, -moz-transform 300ms ease;
+  -o-transition: opacity 500ms ease, -o-transform 300ms ease;
+  transition: opacity 500ms ease, transform 300ms ease;
 }
 
 .wrap-section-service .wrap-service .conteiner-service .service-list ul li:before {
@@ -59,10 +91,41 @@
   margin-bottom: 0;
 }
 
+.wrap-section-service .wrap-service .conteiner-service .service-list ul li.animated {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
 .wrap-section-service .image-box-wrap {
   position: absolute;
   left: 1180rem;
   top: 0;
+}
+
+.wrap-section-service .image-box-wrap .image-box {
+  opacity: 0;
+  -webkit-transform: trnaslate(50%, 0);
+  -moz-transform: trnaslate(50%, 0);
+  -ms-transform: trnaslate(50%, 0);
+  -o-transform: trnaslate(50%, 0);
+  transform: trnaslate(50%, 0);
+  -webkit-transition: opacity 500ms ease, -webkit-transform 300ms ease;
+  -moz-transition: opacity 500ms ease, -moz-transform 300ms ease;
+  -o-transition: opacity 500ms ease, -o-transform 300ms ease;
+  transition: opacity 500ms ease, transform 300ms ease;
+}
+
+.wrap-section-service .image-box-wrap .image-box.animated {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 .wrap-section-service .image-box-wrap .image-box img {

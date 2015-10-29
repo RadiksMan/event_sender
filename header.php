@@ -128,8 +128,8 @@
 		</div>
 		<div class="grey-block"></div>
 		<div class="top_section_animated">
-			<div class="top_img_hands"><img src="images/top_img_hands.png" height="629" width="605" alt=""></div>
-			<div class="top_img_mac"></div>
+			<div class="top_img_hands"><img src="images/top_img_hands.png" alt=""></div>
+			<div class="top_img_mac"><img src="images/" alt=""></div>
 			<div class="top_img_hands"></div>
 			<div class="top_img_tel"></div>
 			<div class="top_img_glass"></div>
@@ -142,6 +142,11 @@
 					<a href="#">
 						Event <span>Sender</span>
 					</a>
+				</div>
+				<div class="sendwich-wrap">
+					<div class="sendwich-icon">
+						<span></span>
+					</div>
 				</div>
 				<div class="header-nav">
 					<nav>

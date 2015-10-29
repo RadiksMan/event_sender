@@ -243,11 +243,11 @@ function sendwichScript(){
         if($(window).width()<1025){
             if($(this).is('.active')){
                 $(this).removeClass('active');
-                $('.header-nav').slideUp(300);
+                $('.header-nav').stop().slideUp(300);
             }
             else{
                 $(this).addClass('active');
-                $('.header-nav').slideDown(300);
+                $('.header-nav').stop().slideDown(300);
             }
         }
 

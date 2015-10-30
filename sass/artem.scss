@@ -26,3 +26,72 @@
 }
 
 /* /service */
+
+/* exempls */
+.wrap-section-exemple{
+    .wrap-exemple{width: 100%;padding: 10rem 0 150rem 0;
+        .conteiner-exemple{max-width: 1920rem; margin: 0 auto;
+            .exemple-header {position: relative; padding: 10rem 0 100rem 0;
+                p{font-family: "Helvetica"; font-weight:900; font-size: 60rem; text-transform: uppercase;}
+                &:after{content: ""; background-color: black; width: 70rem; height: 5rem;position: absolute; left: 0; bottom: -25rem; }
+            }
+            .exemple-slider-wrap{padding-top: 30rem; width: 100%;
+                .exemple-slider-item{display: inline-block; text-align: center; outline: none; position: relative;
+                    img{width: 90%; margin: 0 auto; z-index: 1; position: absolute; top: 0; left: 0;}
+                    .hover-class-slider{z-index: 2; font-family: "Helvetica"; font-weight:900; font-size: 60rem; position: absolute; top: 0; left: 0; background-color: black; color: white; text-transform: uppercase;opacity: 0;}
+                }
+                .exemple-slider-item:hover{.hover-class-slider{opacity: 0.1;}}
+
+                .slick-dots{position: absolute;margin-bottom: 50px;bottom: -100rem;left: 0;right: 0;text-align: center;
+                    li{display: inline-block;margin-right: 10px;
+                    &:last-child{margin-right: 0;}
+                    button{font-size: 0;border:2px solid #333640; background-color: #333640; padding:0;margin:0;border-radius: 50%;width: 12px;height: 12px;
+                        &:focus{outline: none;}
+                    }
+                    &:hover, &.slick-active{
+                        button{background-color: white;}
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+
+
+/* /exempls */
+
+/* rewiews*/
+
+.wrap-section-rewiews{
+    .wrap-rewiews{
+        .conteiner-rewiews{
+            .rewiews-header{position: relative; margin-bottom: 50rem;
+                p{font-family: "Helvetica"; font-weight:900; font-size: 60rem; text-transform: uppercase;}
+                &:after{content: ""; background-color: black; width: 70rem; height: 5rem;position: absolute; left: 0; bottom: -25rem; }
+            }
+            .rewiews-slider-wrap{ position: relative; text-align: center;
+                .rewiews-slider-item{
+                    figure{ width: 100%; border: none; outline: none;
+                        .box-conteiner{ display: inline-block; width: 50%; text-align: right;
+                        }
+                        figcaption{ display: inline-block; width: 45%; text-align: left; vertical-align: top;
+                            h3{font-family: "Helvetica"; font-weight:300; font-size: 18rem; color:#939c9d; padding: 20rem; }
+                            h1{font-family: "Helvetica"; font-weight:700; font-size: 30rem;  color:#4a5557;  padding: 20rem; }
+                            p{font-family: "Helvetica"; font-weight:300; font-size: 18rem; font-style: italic; color:#939c9d; background-image: url(../images/kavichki.png); display: block;  background-repeat: no-repeat; padding: 20rem; }
+                        }
+                    }
+                }
+            .slick-next, .slick-prev{ background-color: transparent;  font-size: 0rem; color:transparent; border: none; height: 25rem; width: 15rem;  background-image: url(../images/button-slider-2.png);background-repeat: no-repeat; outline: none; cursor: pointer; position: absolute; bottom: -100rem; display: inline-block;left: 52%;}
+            .slick-prev{transform: rotate(180deg); left: 48%; }
+            .slick-disabled{ opacity: 0.25;} ;
+            .slick-slide{outline: none;}
+            }
+        }
+    }
+}
+
+/* /rewiews */

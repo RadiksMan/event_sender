@@ -40,3 +40,67 @@
 }
 
 /* /animation */
+
+
+/* footer */
+
+.footer{background-color: #272A33;padding-top: 99rem;padding-bottom: 35rem;
+	.mbox{width: 100%; max-width: 1170rem;
+		.logo-footer-wrap{float: left;margin-right: 9%;padding-bottom: 25px;margin-left: 11px;
+			.logo-footer{padding: 10px 0px;
+				img{max-width: 100%;}
+			}
+		}
+		.pays-wrap{float: left;padding-bottom: 20px;
+			.pay{display: inline-block;margin-right: 24px;
+				img{vertical-align: middle;display: inline-block;}
+				&:last-child{margin-right: 0;}
+			}
+		}
+		.socials-wrap{float: left;width: 23%;
+			.socials{margin: 0 auto;float: none;
+				div{width: 25rem;height: 25rem;float: left;margin-right: 16rem; margin-left: 10rem;
+					&.vk{background-image: url(../images/vk.png);background-repeat: no-repeat;}
+					&.face{background-image: url(../images/face.png);background-repeat: no-repeat;}
+					&.inst{background-image: url(../images/inst.png);background-repeat: no-repeat;}
+					a{width: 100%;height: 100%;display: block;}
+				}
+			}
+		}
+		.copy-right{float: right;    padding-top: 30px;
+			p{font-family: 'Helvetica'; font-weight: 300; font-size: 14rem;color: rgba(255,255,255,0.43);}
+		}
+	}
+}
+
+/* /footer */
+
+
+/* action */
+
+.action{position: relative;
+	.action-title{
+		h2{font-family: 'Helvetica'; font-size: 60rem;font-weight: 700; text-transform: uppercase;color: #fff;position: relative;text-align: right;padding-bottom: 77rem;
+			span{color: #4a5557;}
+			&:before{display: block;content: '';position: absolute;bottom: 54rem;right: 6rem;width: 67rem;height: 7rem;background-color: #fff;}
+		}
+	}
+	.action-body{float: right;
+		.action-body-title{text-align: center;
+			h2{font-size: 57rem; font-family: 'Helvetica'; font-weight: 700; color: #3e3e3f;padding-bottom: 40px;
+				span{font-weight: 100; font-size: 53rem;display: block;padding-top: 7px;}
+			}
+		}
+		.action-body-price{border: 9rem solid #fff;
+			h2{font-family: 'Helvetica'; font-weight: 700; color: #fff;font-size: 151rem;padding-left: 27px;
+				span{font-size: 24rem;color: #3e3e3f;margin-left: 20rem;}
+			}
+		}
+	}
+		.action-img{position: absolute;left: -15rem;top: 181px;
+			img{max-width: 100%;}
+		}
+}
+
+/* /action */
+ 

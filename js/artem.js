@@ -20,9 +20,15 @@ function sliderTop2(){
     });
 };
 
-
+function initFancyBox () {
+    $('.fancy-box-foto').fancybox({
+            fitToView: true,
+            autoSize:false
+    });
+}
 
 $(document).ready(function() {
     sliderTop();
     sliderTop2();
+    initFancyBox();
 });

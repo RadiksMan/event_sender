@@ -8,7 +8,9 @@
                 <div class="rewiews-slider-item">
                     <figure>
                         <div class="box-conteiner">
-                            <img src="images/slider-2-image-2.jpg" alt="" />
+                            <a href="#">
+                                <img src="images/slider-2-image-2.jpg" alt="" />
+                            </a>
                         </div>
                         <figcaption>
                             <h3>Предпрениматель</h3>
@@ -20,7 +22,9 @@
                 <div class="rewiews-slider-item">
                     <figure>
                         <div class="box-conteiner">
-                            <img src="images/slider-2-image-2.jpg" alt="" />
+                            <a href="#">
+                                <img src="images/slider-2-image-2.jpg" alt="" />
+                            </a>
                         </div>
                         <figcaption>
                             <h3>Предпрениматель</h3>
@@ -32,7 +36,9 @@
                 <div class="rewiews-slider-item">
                     <figure>
                         <div class="box-conteiner">
-                            <img src="images/slider-2-image-2.jpg" alt="" />
+                            <a href="#">
+                                <img src="images/slider-2-image-2.jpg" alt="" />
+                            </a>
                         </div>
                         <figcaption>
                             <h3>Предпрениматель</h3>

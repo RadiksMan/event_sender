@@ -7,27 +7,27 @@
             <div class="exemple-slider-wrap">
                 <div class="exemple-slider-item">
                     <img src="images/slider-1-image-3.jpg" alt="" />
-                    <div class="hover-class-slider"> Кот </div>
+                    <a href="images/fb-1-image-3.jpg" class="fancy-box-foto"><div class="hover-class-slider vfix-before"> Кот </div> </a>
                 </div>
                 <div class="exemple-slider-item">
                     <img src="images/slider-1-image-1.jpg" alt="" />
-                    <div class="hover-class-slider"> Жвачка </div>
+                    <a href="images/fb-1-image-1.jpg" class="fancy-box-foto"><div class="hover-class-slider vfix-before"> Жвачка </div></a>
                 </div>
                 <div class="exemple-slider-item">
                     <img src="images/slider-1-image-2.jpg" alt="" />
-                    <div class="hover-class-slider"> Кавер группа </div>
+                    <a href="images/fb-1-image-2.jpg" class="fancy-box-foto"><div class="hover-class-slider vfix-before"> Кавер группа </div></a>
                 </div>
                 <div class="exemple-slider-item">
                     <img src="images/slider-1-image-3.jpg" alt="" />
-                    <div class="hover-class-slider"> кот </div>
+                    <a href="images/fb-1-image-3.jpg" class="fancy-box-foto"><div class="hover-class-slider vfix-before"> кот </div></a>
                 </div>
                 <div class="exemple-slider-item">
                     <img src="images/slider-1-image-4.jpg" alt="" />
-                    <div class="hover-class-slider"> лодка </div>
+                    <a href="images/fb-1-image-4.jpg" class="fancy-box-foto"><div class="hover-class-slider vfix-before"> лодка </div></a>
                 </div>
                 <div class="exemple-slider-item">
                     <img src="images/slider-1-image-2.jpg" alt="" />
-                    <div class="hover-class-slider"> Кавер группа </div>
+                    <a href="images/fb-1-image-2.jpg" class="fancy-box-foto"><div class="hover-class-slider vfix-before"> Кавер группа </div></a>
                 </div>
             </div>
         </div>
